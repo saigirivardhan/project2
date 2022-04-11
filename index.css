@@ -1,0 +1,230 @@
+.item1{
+    position: relative;
+    left: 230px;
+    top: 120px;
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.item2{
+    font-weight: lighter;
+    font-size: larger;
+    color: gray;
+    position: relative;
+    left: 950px;
+    top: 90px;
+}
+.item3{
+    border: 1px solid rgb(250, 250, 250);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 600px;
+   display: -ms-inline-grid;
+   column-gap: 30px;
+    
+}
+.giri{
+    text-decoration: none;
+    color: rgb(199, 142, 142);
+    font-weight: lighter;
+}
+.win{
+    position: relative;
+    left: 39.4%;
+    
+}
+
+
+
+.item4{
+    color: rgb(237, 151, 151);
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 130px;
+    height: 200px;
+    padding: 10px;
+    text-align: end;
+    box-shadow: 5px 5px 2px rgb(204, 191, 191) ;
+   
+}
+hr{
+    width: 127px;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+   background-color: black;
+}
+.sai{
+    position: relative;
+    left: 470px;
+    top: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+.my1{
+    width: 127px;
+    position: relative;
+   left: 100px;
+    top: 50px;
+   background-color: rgb(2, 1, 1);
+}
+.my2{
+    width: 127px;
+    position: relative;
+    left: -240px;
+    top: 40px;
+   background-color: black;
+   
+}
+.sai2{
+    position: relative;
+    left: 49%;
+    top: 70px;
+    
+}
+.item5{
+    position: relative;
+    left: 48%;
+    top: 80px;
+}
+.giri2{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(238, 24, 24);
+    width: 300px;
+    height: 130px;
+    box-shadow: 5px 5px 2px rgb(204, 191, 191) ;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  left:45%;
+  bottom: 120px; 
+}
+.test1{
+    align-self: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.test2{
+   align-self: center;
+}
+.test3{
+    color: white;
+    background-color: red;
+    width: 55px;
+    border-radius: 50px;
+    align-self: center;
+}
+.ra{
+    position: relative;
+    left: 10px;
+}
+ .in{
+     filter: blur(8px);
+     position: relative;
+     left: 30%;
+ }
+.we{
+    position: relative;
+    left: 30%;
+    filter: blur(6px);
+}
+.giri3{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(238, 24, 24);
+    width: 300px;
+    height: 130px;
+    box-shadow: 5px 5px 2px rgb(204, 191, 191) ;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  left: 45%;
+ top: 360px;
+}
+
+ 
+
+@media  (min-width:65px) and (max-width:1000px) {
+       .item2{
+           position: relative;
+           left: 400px;
+       }
+    .item3{
+        display: grid;
+        row-gap: 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+       
+        }
+       .item4{
+          height: 40px;
+          width: 250px;
+        color: rgb(159, 144, 144);
+        }
+       .acc{
+           position: relative;
+          top: 21000px;
+          height: 130px;
+       }
+ }    
+
+
+@media (min-width:20px) and (max-width:1050px){
+     .acc1{
+         position: fixed;
+         right: 600px;
+     }
+     .my1 , .my2 {
+          position: relative;
+          top: 2100px;
+     }
+     .sai2{
+         position: relative;
+         left: 700px;
+     }
+    .swim{
+        position: relative;
+        left: 400px;
+    }
+    .ece{
+        width: 130px;
+        height: 200px;
+        
+    }
+}   
+
+
+
+@media (min-width:100px) and (max-width:1100px) {
+    .giri2{
+       
+     position: fixed;
+     top: 250px;
+     left: 20%;
+ }
+}
+
+
+@media (min-width:100px) and (max-width:1100px) {
+    .giri3{
+       
+     position: fixed;
+     top: 250px;
+     left: 30px;
+ }
+}  
+
+
+
+
+
